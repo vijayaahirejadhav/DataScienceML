@@ -1,5 +1,5 @@
 import sys  # to manipulate python runtime environment
-
+ 
 def error_message_details(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
     error_message="Error occured in python scripy name [{0}] line number [{1}] error.message[{2}]".format(
